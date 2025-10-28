@@ -1,0 +1,59 @@
+.header {
+    padding-top: 22.5px;
+    padding-bottom: 22.5px;
+}
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.menu {
+    display: flex;
+    gap: 10px;
+}
+.link{
+    padding: 8px 10px;
+}
+.link:hover {
+    color: #860202;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.search {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding-block: 4px;
+    padding-left: 14px;
+    padding-right: 4px;
+    border-radius: 40px;
+}
+.input {
+
+}
+.lupa {
+    background: #9B1E1C;
+    border-radius: 30px;
+    padding: 10px;
+}
+.profile {
+    fill: #000;
+}
+.cart {
+    fill: #000;
+}
+.profile:hover {
+    fill: #860202;
+}
+.cart:hover {
+    fill: #860202;
+}

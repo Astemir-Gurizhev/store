@@ -1,0 +1,20 @@
+
+.catalogButton {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    color: #fff;
+    background: #9B1E1C;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    
+    &:hover {
+      background: #860202;
+    }
+}
+.arrow {
+    margin-top: 2px;
+    padding: 6px 4px;
+}
