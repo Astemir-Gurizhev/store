@@ -31,6 +31,7 @@
 .search {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background: #fff;
     padding-block: 4px;
     padding-left: 14px;
@@ -38,7 +39,8 @@
     border-radius: 40px;
 }
 .input {
-
+    flex: 1;
+    padding-inline: 4px;
 }
 .lupa {
     background: #9B1E1C;
