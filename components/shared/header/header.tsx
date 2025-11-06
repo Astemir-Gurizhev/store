@@ -2,7 +2,6 @@ import Link from "next/link";
 import cn from "./header.module.scss";
 import { BigContainer } from "../big-container/bigContainer";
 import { CatalogButton } from "../../ui/catalog-button/catalogButton";
-import { Logo } from "../../ui/logo/logo";
 
 export const Header = () => {
   return (
@@ -26,7 +25,9 @@ export const Header = () => {
               </li>
             </ul>
           </div>
-          <Logo />
+          <Link href={'/'}>
+            <img src="/header/Logo.png" alt="" />
+          </Link>
           <div className={cn.right}>
             <div className={cn.search}>
                 <input

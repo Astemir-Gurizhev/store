@@ -1,0 +1,33 @@
+.topHeader {
+    padding-block: 5px;
+    border-bottom: 1px solid #E4E2DF;
+}
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.left {
+    color: #888888;
+}
+.left:hover {
+    color: black;
+}
+.right {
+    color: #888888;
+}
+.right:hover {
+    color: black;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.menu li {
+    color: #888888;
+}
+.menu li:hover {
+    color: black;
+}

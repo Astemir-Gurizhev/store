@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Nunito } from 'next/font/google'
 import './globals.scss'
 import { Header } from '@/components/shared/header/header'
+import { TopHeader } from '@/components/shared/top-header/topHeader'
 
 
 const nunito = Nunito({
@@ -23,6 +24,7 @@ export default function RootLayout({
 	return (
 		<html lang='en'>
 			<body className={nunito.className}>
+				<TopHeader/>
 				<Header/>
 			</body>
 		</html>
